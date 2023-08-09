@@ -8,7 +8,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function HomeScreen() {
   const [fontsLoaded] = useFonts({
-    "Poppins": require("./assets/fonts/Poppins-Regular.ttf"),
+    "Poppins": require("../assets/fonts/Poppins-Regular.ttf"),
   });
 
   const onLayoutRootView = useCallback(async () => {
